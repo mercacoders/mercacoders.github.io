@@ -33,7 +33,8 @@ github_username: cod3rs
 
 # Build settings
 # theme: minima
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 minimal_mistakes_skin: "air"
 plugins:
   - jekyll-feed
