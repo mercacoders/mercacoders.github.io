@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: welcome to cod3rs site
+subtitle: "Version 0.1b"
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -31,9 +32,12 @@ url: "https://mercacoders.github.io" # the base hostname & protocol for your sit
 github_username: cod3rs
 
 # Build settings
-theme: minima
+# theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
